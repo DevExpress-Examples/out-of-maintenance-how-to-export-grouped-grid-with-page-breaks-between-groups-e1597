@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/WebApplication211/Default.aspx) (VB: [Default.aspx](./VB/WebApplication211/Default.aspx))
-* [Default.aspx.cs](./CS/WebApplication211/Default.aspx.cs) (VB: [Default.aspx](./VB/WebApplication211/Default.aspx))
+* [Default.aspx.cs](./CS/WebApplication211/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApplication211/Default.aspx.vb))
 <!-- default file list end -->
 # How to export grouped grid with page breaks between groups
 
