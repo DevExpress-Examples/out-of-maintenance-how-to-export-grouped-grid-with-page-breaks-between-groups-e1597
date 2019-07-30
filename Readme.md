@@ -5,7 +5,7 @@
 <!-- default file list end -->
 # How to export grouped grid with page breaks between groups
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1597)**
+**[[Run Online]](https://codecentral.devexpress.com/e1597/)**
 <!-- run online end -->
 
 
