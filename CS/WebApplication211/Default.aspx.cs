@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 using DevExpress.XtraPrinting;
 using DevExpress.Data.Filtering;
 
@@ -38,7 +38,7 @@ namespace WebApplication211
                     Link self = (Link)sender2;
                     for (int i = 0; i < groupValues.Length; i++)
                     {
-                        DevExpress.Web.ASPxGridView.Export.Helper.GridViewLink linkdata = new DevExpress.Web.ASPxGridView.Export.Helper.GridViewLink(ASPxGridViewExporter1);
+                        DevExpress.Web.Export.GridViewLink linkdata = new DevExpress.Web.Export.GridViewLink(ASPxGridViewExporter1);
                         linkdata.PrintingSystemBase = self.PrintingSystem;
                         if (i > 0)
                         {

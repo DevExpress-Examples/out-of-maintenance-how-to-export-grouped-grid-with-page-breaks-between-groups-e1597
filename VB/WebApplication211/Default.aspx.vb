@@ -9,7 +9,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports DevExpress.XtraPrinting
 Imports DevExpress.Data.Filtering
 
@@ -44,7 +44,7 @@ Namespace WebApplication211
 		Private Sub clink_CreateDetailArea(ByVal sender2 As Object, ByVal e2 As CreateAreaEventArgs)
 			Dim self As Link = CType(sender2, Link)
 			For i As Integer = 0 To groupValues.Length - 1
-				Dim linkdata As New DevExpress.Web.ASPxGridView.Export.Helper.GridViewLink(ASPxGridViewExporter1)
+				Dim linkdata As New DevExpress.Web.Export.GridViewLink(ASPxGridViewExporter1)
 				linkdata.PrintingSystemBase = self.PrintingSystem
 				If i > 0 Then
 					self.PrintingSystem.InsertPageBreak(0)
